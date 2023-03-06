@@ -6,3 +6,7 @@ values ('J.K.', 'Rowling'),
 
 select *
 from author;
+
+insert into author(firstname, lastname)
+values ('Agatha', 'Christie'), 
+('William', 'Shakespeare'),('Steven', 'King');

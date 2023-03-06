@@ -1,10 +1,10 @@
 use library;
 
 insert into book(title, genre_id)
-values ('To The Lighthouse', 1), 
-('The Adventures of Huckleberry Finn', 1),
-('Harry Potter and the Chamber of Secrets', 1),
-('Harry Potter and the Philosophers Stone', 1);
+values ('Death on the Nile', 6);
 
 select *
 from book;
+
+insert into book(title, genre_id)
+values ('To The Lighthouse', 1);
